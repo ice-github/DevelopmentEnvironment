@@ -6,6 +6,7 @@ This repository is just for the note of my development environment setup.
 ## Visual Studio
 
 - https://visualstudio.microsoft.com/ja/downloads/
+- C++ keybind
 
 ## Unity
 
@@ -15,6 +16,7 @@ This repository is just for the note of my development environment setup.
 
 - https://code.visualstudio.com/
 - when Sync function will be enable by default, unnecessary to install extensions
+- Update keybinds
 
 ## MSYS2
 
@@ -22,9 +24,10 @@ This repository is just for the note of my development environment setup.
 - install packages
   - git
   - gcc
-
+- Copy .bashrc and .inputrc
 
 ## ConEmu
 
 - https://conemu.github.io/
-
+- Settings
+  - set CHERE_INVOKING=1 & set MSYSTEM=MINGW64 &  E:\msys64\usr\bin\bash.exe --login -i -new_console:C:"E:\msys64\msys2.ico"
